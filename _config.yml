@@ -1,0 +1,12 @@
+# Site settings
+title: Hugo Marques - Diário de um Engenheiro de Software
+email: me@hugodesmarques.com
+description: > # this means to ignore newlines until "baseurl:"
+  O dia a dia de um engenheiro de software no Brasil e Estados Unidos.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.hugodesmarques.com " # the base hostname & protocol for your site
+twitter_username: hugaomarques
+github_username:  hugomarques
+
+# Build settings
+markdown: kramdown
