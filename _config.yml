@@ -3,10 +3,21 @@ title: Hugo Marques - Diário de um Engenheiro de Software
 email: me@hugodesmarques.com
 description: > # this means to ignore newlines until "baseurl:"
   O dia a dia de um engenheiro de software no Brasil e Estados Unidos.
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://hugodesmarques.com " # the base hostname & protocol for your site
 twitter_username: hugaomarques
 github_username:  hugomarques
 
 # Build settings
 markdown: kramdown
+
+#glynn
+ftp_host: 'hugodesmarques.com'
+ftp_dir: '/public_html/blog'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'hmarques'     # default read from stdin
+#ftp_password: 'your_ftp_pass' # default read from stdin
+#ftp_secure: true              # default false
