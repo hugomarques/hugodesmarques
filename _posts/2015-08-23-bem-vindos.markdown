@@ -3,6 +3,7 @@ layout: post
 title:  "Genesis"
 date:   2015-08-23 14:08:00
 categories: update
+comments: true
 ---
 Olá, meu nome é Hugo e esse é o meu blog pessoal. Meu objetivo é compartilhar tutoriais, dicas, curiosidades e lições que aprendi ao longo destes anos imerso no mundo da Engenharia de Software.
 
