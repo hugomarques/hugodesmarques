@@ -6,11 +6,13 @@ categories: java lib
 comments: true
 ---
 Java sempre foi conhecida como uma linguagem lenta e verborágica. Apesar de muitas dessas afirmações serem devido ao estigma herdado das primeiras versões da JVM, outras tanta ainda são verdade. Para usuários de outras linguagens, como Python ou Ruby, é fato que em Java, tal como o português, muitas vezes se escreve muito para se "falar" pouco.
+
 Recentemente diversas APIs e libs estão surgindo para minimizar o esforço de escrever código Java e tornar a linguagem algo mais produtivo para o desenvolvedor, Lombok é uma dessas libs.
 
 ##O que é Lombok?
 
 Lombok é uma lib disponibilizada no formato de jar que quando adicionado ao seu classpath permite o use de annotations para descrever diversos comportamentos comumente usados na linguagem.
+
 Esse tutorial serve como uma rápida introdução à API, para maiores detalhes, veja as fontes no final desse artigo.
 
 ##Mãos à obra
@@ -165,7 +167,10 @@ Não quis me aprofundar pois acredito que o material oficial e o excelente artig
 Por fim, não posso deixar de mencionar que inúmeras pessoas são contra o uso de ferramentas como Lombok. Um dos principais argumentos cita que annotations são formas de se construir meta-data em cima de Java e não implementar novas funcionalidades através de geração de código. Por exemplo, se você remover a annotation @Slf4j o código para de compilar, diferente do que aconteceria se você removesse uma annotation @Entity de um bean qualqer.
 
 ##Conclusão
-No meu dia a dia tenho achado o Lombok uma ferramenta extremamente produtiva que quando bem usada ajuda bastante a diminuir o trabalho repetitivo do programador. Como toda boa ferramenta, deve ser usado sem abuso. Particularmente eu evito usar @Data pois não gosto de expôr meus sets, além disso, implementações do equals e do hashcode gerados devem ser validados através de unit tests para garantir que o comportamento é o que você deseja.
+No meu dia a dia tenho achado o Lombok uma ferramenta extremamente produtiva que quando bem usada ajuda bastante a diminuir o trabalho repetitivo do programador.
+
+Como toda boa ferramenta, deve ser usado sem abuso. Particularmente, eu evito usar @Data pois não gosto de expôr meus sets, além disso, implementações do equals e do hashcode gerados devem ser validados através de unit tests para garantir que o comportamento é o esperado pelo desenvolvedor.
+
 Espero que tenham gostado do post e fico no aguardo de dúvidas e sugestões nos comentários. Maiores detalhes sobre a lib podem ser achados nos links abaixo.
 
 ## Fontes
