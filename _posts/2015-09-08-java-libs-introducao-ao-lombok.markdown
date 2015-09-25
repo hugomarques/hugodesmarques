@@ -175,8 +175,8 @@ Espero que tenham gostado do post e fico no aguardo de dúvidas e sugestões nos
 
 ## Fontes
 
-* https://projectlombok.org/
-* http://jnb.ociweb.com/jnb/jnbJan2010.html
+1. <https://projectlombok.org/>
+2. <http://jnb.ociweb.com/jnb/jnbJan2010.html>
 
 
 
