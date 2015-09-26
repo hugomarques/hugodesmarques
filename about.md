@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 ---
-Oi, meu nome é Hugo, e como você já deve desconfiar, eu sou um Engenheiro de Software.
+Oi! Meu nome é Hugo, e como você já deve desconfiar, eu sou um Engenheiro de Software.
 
 Eu estudei Ciência da Computação na Universidade Federal de Campina Grande. Depois de formado, decidi estudar mais sobre Java, Arquitetura de Software e Integração de Sistemas.
 
