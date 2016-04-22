@@ -258,5 +258,21 @@
     }
 }
 
+/**
+* Images
+*/
 
+.image {
+  margin: 5px;
+  display: inline-block;
 
+  .caption {
+    text-align: center;
+    font-weight: bold;
+    color: #CCC
+  }
+}
+
+.float-left {
+  float: left;
+}
