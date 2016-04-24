@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'jekyll', '~> 3.1', '>= 3.1.3'
+gem 'jekyll-gist'
+gem 's3_website'
+gem 'kramdown'
+gem 'pygments.rb', '~> 0.6.3'
