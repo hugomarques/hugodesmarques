@@ -17,19 +17,19 @@ Não irei me aprofundar no uso das APIs ou configuração dos serviços. Isso se
 
 ### 1. Consultas e transações
 
-{% include image.html url="/assets/2016/04/aws/Database_AmazonRDS.png" description="RDS" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Database_AmazonRDS.png" description="RDS"  %}
 
 **Amazon RDS** permite a criação de diversos banco de dados, entre eles *Oracle* e *MySQL* garantindo transações *ACID* e *queries* em *SQL*.
 
 ### 2. Banco de dados escalável e de baixa latência
 
-{% include image.html url="/assets/2016/04/aws/Database_AmazonDynamoDB.png" description="DynamoDB" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Database_AmazonDynamoDB.png" description="DynamoDB"  %}
 
 **Amazon DynamoDB** é um banco de dados *NoSQL* que pode armazenar dados tanto no modelo chave-valor, como documentos utilizando *JSON*.
 
 ### 3. Servidor próprio
 
-{% include image.html url="/assets/2016/04/aws/Compute_AmazonEC2.png" description="EC2" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Compute_AmazonEC2.png" description="EC2"  %}
 
 Um dos serviços principais do Amazon Web Services. O **Amazon EC2** permite ao desenvolvedor configurar máquinas virtuais Linux ou Windows.
 
@@ -37,7 +37,7 @@ Essas máquinas podem ser utilizadas como servidores para rodar desde banco de d
 
 ### 4. Servidor de aplicação
 
-{% include image.html url="/assets/2016/04/aws/Compute_AWSElasticBeanstalk.png" description="Elastic Beanstalk" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Compute_AWSElasticBeanstalk.png" description="Elastic Beanstalk"  %}
 
 Servidores de aplicação podem ser configurados utilizando o **Amazon EC2**. Porém, o **Amazon Elastic Beanstalk** é uma solução mais simples que abstrai grande partes das configurações do *EC2* e permite o deploy de aplicações com 1 clique.
 
@@ -45,32 +45,32 @@ Com o **Elastic Beanstalk** é possível executar aplicações *Java, PHP, JavaS
 
 ### 5. Armazenamento de dados
 
-{% include image.html url="/assets/2016/04/aws/Storage-Content-Delivery_AmazonS3.png" description="Amazon S3" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Storage-Content-Delivery_AmazonS3.png" description="Amazon S3"  %}
 
 **Amazon S3** é o serviço apropriado para salvar arquivos como imagens, vídeos, músicas ou grandes arquivos de texto.
 
 
 ### 6. Processamento de messagens assíncronas
 
-{% include image.html url="/assets/2016/04/aws/Application-Services_AmazonSQS_message.png" description="Amazon SQS" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Application-Services_AmazonSQS_message.png" description="Amazon SQS"  %}
 
 Um dos meus serviçoes favoritos, o **Amazon SQS** permite o envio de messagens para processamento assíncrono. O uso de filas de messagens permite a criação de aplicações altamente escaláveis que desacoplam produtor do consumidor.
 
 ### 7. Push de messagens no modelo Publisher-Subscriber
 
-{% include image.html url="/assets/2016/04/aws/Mobile-Services_AmazonSNS.png" description="Amazon SNS" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Mobile-Services_AmazonSNS.png" description="Amazon SNS"  %}
 
 O **Amazon SNS** implementa o *pattern* de **integração** *publisher-subscriber*. Através do **SNS** é possível enviar notificações para diversos canais diferentes, como email, SMS, notifições iOS, Android.
 
 ### 8. Execução de workflows
 
-{% include image.html url="/assets/2016/04/aws/Application-Services_AmazonSWF.png" description="Amazon SWF" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Application-Services_AmazonSWF.png" description="Amazon SWF"  %}
 
 O **Amazon SWF** execução de workflows com retentativas, monitoramento de cada passo e lógica de negócio complexas.
 
 ### 9. Executar fluxos de dados
 
-{% include image.html url="/assets/2016/04/aws/Analytics_AWSDataPipeline.png" description="Amazon DataPipeline" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Analytics_AWSDataPipeline.png" description="Amazon DataPipeline"  %}
 
 Se o objetivo for simplesmente mover dados entre recursos do *AWS* sem necessidade de muita codificação o **Amazon Data Pipeline** é o serviço correto.
 
@@ -78,7 +78,7 @@ Com o DataPipeline é possível mover dados entre *buckets S3*, tabelas do *Dyna
 
 ### 10. Monitoramento de recursos.
 
-{% include image.html url="/assets/2016/04/aws/Management-Tools_AmazonCloudWatch.png" description="Amazon CloudWatch" class="float-left" %}
+{% include image.html url="/assets/2016/04/aws/Management-Tools_AmazonCloudWatch.png" description="Amazon CloudWatch"  %}
 
 Para monitoramento de todos os recursos descritos acima o *AWS* disponibiliza o **Amazon CloudWatch** que permite acompanhar o desempenho de todos os serviços, além de fornecer métricas e configuração de alarmes.
 

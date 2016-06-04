@@ -3,6 +3,9 @@ layout: page
 title: About me
 permalink: /about/
 ---
+
+{% include image.html url="/assets/avatar.png" class="float-left" imageClass="profile-image" %}
+
 Oi! Meu nome é Hugo, e como você já deve desconfiar, eu sou um Engenheiro de Software.
 
 Eu estudei Ciência da Computação na Universidade Federal de Campina Grande e atualmente vivo e trabalho nos Estados Unidos, em Seattle, WA.

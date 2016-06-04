@@ -1,0 +1,45 @@
+/**
+* Social media buttons
+*/
+.share-list {
+    margin-left: 0px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.share-item {
+    display: block;
+    float:left;
+    margin: 0 1em 0 0;
+    vertical-align: top !important;
+}
+
+.fb-share-button {
+    span {
+        vertical-align: top !important;
+    }
+}
+
+/**
+* Images
+*/
+
+.image {
+  margin: 5px;
+  display: inline-block;
+
+  .caption {
+    text-align: center;
+    font-weight: bold;
+    color: #CCC
+  }
+}
+
+.float-left {
+  float: left;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+}

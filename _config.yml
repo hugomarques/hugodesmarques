@@ -2,7 +2,7 @@
 title: Hugo Marques - Diário de um Engenheiro de Software
 email: hugodesmarques@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Desenvolvimento de software no dia a dia de um engenheiro de software.
+  Técnicas, melhores práticas e curiosidades no dia a dia de um engenheiro de software.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hugodesmarques.com" # the base hostname & protocol for your site
 twitter_username: hugaomarques
